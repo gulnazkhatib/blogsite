@@ -14,19 +14,19 @@ timezone:
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Chirpy # the main title
+title: Gulnaz Khatib # the main title
 
-tagline: A text-focused Jekyll theme # it will display as the subtitle
+tagline: Explore useful resources. Read blogs. # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  A minimal, responsive and feature-rich Jekyll theme for technical writing.
+  Gulnaz Khatib is an experienced educator and passionate programmer dedicated to sharing meaningful resources for students and teachers. This platform offers learning materials in Computer Science, IT, and programming, along with professional tools for educators exploring AI in education and digital teaching. You’ll also find beginner-friendly tajweed resources, tips on online safety, creative projects, and inspiration for simple, sustainable living.
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
-url: ""
+url: "https://gulnazkhatib.github.io/gulnazkhatibwebsite"
 
 github:
-  username: github_username # change to your GitHub username
+  username: gulnazkhatib # change to your GitHub username
 
 twitter:
   username: twitter_username # change to your Twitter username
