@@ -4,8 +4,8 @@ title: My First Post
 date: 2025-07-10 07:34:00 +0300  
 categories: [getting-started, blog]  
 tags: [first-post, welcome, beginnings, reflections]  
-# excerpt: A warm welcome to my corner of the internet — a space for learning, creating, reflecting, and growing across disciplines.  
-# image: /assets/img/welcome.jpg  
+excerpt: A warm welcome to my corner of the internet — a space for learning, creating, reflecting, and growing across disciplines.  
+image: /assets/img/gk2.png  
 ---
 
 # Welcome to My Blog!
