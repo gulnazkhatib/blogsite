@@ -49,7 +49,7 @@ jobs:
         # The Chirpy theme requires a special build step to compile assets.
         run: |
           bundle exec jekyll build
-          bundle exec jekyll liveserve --destination _site/blogsite/
+          # bundle exec jekyll liveserve --destination _site/blogsite/
         env:
           JEKYLL_ENV: production
 
