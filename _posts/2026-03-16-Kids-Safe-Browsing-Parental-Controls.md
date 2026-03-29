@@ -23,7 +23,29 @@ While kids are home alone, YouTube is often their primary source of information 
 
 * **On a Smartphone/Tablet:** Open YouTube > Tap **Profile Picture** > **Settings** > **General** > Toggle **Restricted Mode** to **ON**.
 * **On a Computer:** Go to YouTube.com > Click your **Profile Picture** > Click **Restricted Mode** at the bottom > Toggle to **ON**.
+**If you wish to block Youtube from your home pc or a specific website altogether, do the following:**
+  To completely block YouTube on a Windows PC, you can use a system-level block that prevents access across all web browsers and applications. [1, 2] 
+Method 1: Editing the Hosts File (Hardest to Bypass)  
+The most effective free way to block YouTube system-wide is by editing the Windows "hosts" file. This method redirects all requests for YouTube to your own computer ($127.0.0.1$), effectively killing the connection.  
 
+   1. Open Notepad as Administrator: Press the Windows Key, type Notepad, right-click it, and select Run as administrator.
+   2. Open the Hosts File: In Notepad, go to File > Open and navigate to:
+   C:\Windows\System32\drivers\etc
+   Change the file type filter in the bottom-right from "Text Documents (.txt)" to All Files to see the hosts file*.
+   3. Add Block Lines: Scroll to the bottom and add these lines on new rows:
+   
+   127.0.0.1 youtube.com
+   127.0.0.1 www.youtube.com
+   127.0.0.1 m.youtube.com
+   
+   4. Save and Refresh: Save the file (Ctrl + S). To make it take effect immediately, open Command Prompt as administrator and type ipconfig /flushdns, then press Enter.  
+
+Method 2: Router-Level Blocking (Network-Wide)
+If you want to block YouTube on every device in your home (PCs, tablets, and phones), you can do it through your Wi-Fi router. [8, 9] 
+
+   1. Log in to your router's admin panel (usually by typing 192.168.1.1 or 192.168.0.1 in your browser).
+   2. Look for Parental Controls, Access Control, or URL Filtering.
+   3. Add youtube.com to the blocked list or blacklist. 
 ---
 
 ## 2. Level Two: Browser-Level Safe Search
