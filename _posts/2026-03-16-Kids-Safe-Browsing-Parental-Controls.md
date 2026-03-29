@@ -42,13 +42,13 @@ If you want to block YouTube on every device in your home (PCs, tablets, and pho
 ---
 Although blocking YouTube solves the root cause problems ariving from it but, blocking it, is always not an option, since YouTube is often their primary source of information and entertainment. You can lock it into a safer mode that filters out mature content and—crucially—**hides the comments section** to prevent interaction with strangers.
 
-## 2. Level One: The Clean Video 
+## 2. The Clean Video 
 *Best for: Managing entertainment and school research during the day.*
 
 * **On a Smartphone/Tablet:** Open YouTube > Tap **Profile Picture** > **Settings** > **General** > Toggle **Restricted Mode** to **ON**.
 * **On a Computer:** Go to YouTube.com > Click your **Profile Picture** > Click **Restricted Mode** at the bottom > Toggle to **ON**.
   
-## 3. Level Two: Browser-Level Safe Search
+## 3. Browser-Level Safe Search
 *Best for: Ensuring school research doesn't lead to accidental adult results.*
 
 Even innocent searches can sometimes show explicit images. You can force the browser to only show age-appropriate results.
@@ -57,8 +57,8 @@ Even innocent searches can sometimes show explicit images. You can force the bro
 * **Secure Browser Settings:** In Chrome or Edge, go to **Settings** > **Privacy & Security** > **Security**. Under "Use Secure DNS," select "Choose a provider" and use a family-safe option (like `https://family.cloudflare-dns.com/dns-query`).
 ---
 
-## 4. Level Four: The Whole House Shield (Router Method)
-*Best for: Protecting everything at once—Smart TVs, Gaming Consoles, and Laptops.*
+## 4. For The Whole House (WIFI Router Method)
+*Best for: Protecting everything at once—Smart TVs, Gaming Consoles, and Laptops, mobiles connected to your wifi.*
 
 This is the most efficient method for a working parent. By changing this one setting on your home router, every single device in your house is automatically safe. You don't have to check their phones every day; the "rules" are built into the Wi-Fi itself.
 
@@ -70,12 +70,11 @@ This is the most efficient method for a working parent. By changing this one set
     * **Primary DNS:** `1.1.1.3`
     * **Secondary DNS:** `1.0.0.3`
 5.  **Apply & Save:** Once saved, your home network is officially a "Safe Zone."
-
-*You settings may vary slightly based on your Router and Internet provider*
 ---
+*Your settings may vary slightly based on your Router and Internet provider*
 
 ## Peace of Mind Checklist
-Before you head to work, you can verify if your "guardrails" are active by visiting these test sites on any home device. If they **do not load**, your family is protected:
+Before you head to work, you can verify if your "guardrails" are active by visiting these test sites on any home device. If they **do not load**, your settings are working:
 * **Malware Test:** [https://malware.testcategory.com/](https://malware.testcategory.com/)
 * **Adult Content Test:** [https://nudity.testcategory.com/](https://nudity.testcategory.com/)
 
