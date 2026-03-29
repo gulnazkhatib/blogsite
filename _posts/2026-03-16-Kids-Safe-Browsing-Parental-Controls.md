@@ -15,7 +15,7 @@ For working parents, the internet is a vital tool for our children’s education
 Here is a simple strategy list to protect your home, ordered from the easiest daily habits to the most powerful "hidden" protections.
 
 ---
- ##1. **If you wish to block Youtube or any specific website altogether from your home pc, do the following:**
+ ## 1. **If you wish to block Youtube or any specific website altogether from your home pc, do the following:**
  So to completely block YouTube on your Windows PC, you can use a system-level block that prevents access across all web browsers and applications.  
 **Method 1:** Editing the Hosts File (Hardest to Bypass)  
 The most effective free way to block YouTube system-wide is by editing the Windows "hosts" file. This method redirects all requests for YouTube to your own computer, effectively killing the connection.  
@@ -26,11 +26,12 @@ The most effective free way to block YouTube system-wide is by editing the Windo
    Change the file type filter in the bottom-right from "Text Documents (.txt)" to All Files to see the hosts file*.
    3. Add Block Lines: Scroll to the bottom and add these lines on new rows:
    
-   127.0.0.1 youtube.com
-   127.0.0.1 www.youtube.com
-   127.0.0.1 m.youtube.com
-   
-   4. Save and Refresh: Save the file (Ctrl + S). To make it take effect immediately, open Command Prompt as administrator and type ipconfig /flushdns, then press Enter.  
+   ```
+    127.0.0.1 youtube.com
+    127.0.0.1 www.youtube.com
+    127.0.0.1 m.youtube.com 
+   ```
+   5. Save and Refresh: Save the file (Ctrl + S). To make it take effect immediately, open Command Prompt as administrator and type ipconfig /flushdns, then press Enter.  
 
 **Method 2:** Router-Level Blocking (Network-Wide)
 If you want to block YouTube on every device in your home (PCs, tablets, and phones), you can do it through your Wi-Fi router. 
